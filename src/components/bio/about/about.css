@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-#about .row:nth-of-type(2) {
+#about .row {
   margin-top: 80px;
 }
 

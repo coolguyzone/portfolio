@@ -5,3 +5,7 @@ body {
   background-color: #282631;
   color: white;
 }
+
+* {
+  box-sizing: border-box;
+}

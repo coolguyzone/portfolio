@@ -5,14 +5,11 @@ import AboutImage from './about-image';
 import AboutText from './about-text';
 
 const About = () => (
-  <div id="About">
-    <TitleBar title="About" />
+  <div id="about">
     <div className="row">
       <AboutImage />
       <AboutText />
     </div>
-    <TitleBar title="Skills" />
-    <TitleBar title="Experience" />
   </div>
 );
 
