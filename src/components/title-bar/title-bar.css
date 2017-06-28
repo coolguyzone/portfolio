@@ -1,0 +1,16 @@
+.title-bar-block {
+  width: 100px;
+  height: 36px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.title-bar-title {
+  text-align: left;
+  font-size: 2em;
+  margin-left: 1.6%;
+}
+
+.title-bar {
+  margin-top: 60px;
+}

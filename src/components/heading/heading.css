@@ -13,7 +13,7 @@
 #heading p {
   font-size: 1.2em;
   text-align: left;
-  padding: 0 40px 0 70px;
+  padding: 0 3% 0 5%;
 }
 
 #heading-button .col-md-5 {
@@ -21,6 +21,7 @@
   line-height: 50px;
   width: 200px;
   border: 2px solid white;
+  margin-top: 20px;
 }
 
 #heading-button {
