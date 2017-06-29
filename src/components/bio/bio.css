@@ -1,5 +1,13 @@
 #bio {
   margin-bottom: 40px;
-  height: 600px;
+  height: 1300px;
   padding-top: 60px;
+}
+
+#bio .title-bar {
+  margin-top: 70px;
+}
+
+#bio .title-bar:first-of-type {
+  margin-top: 0;
 }

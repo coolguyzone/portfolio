@@ -4,8 +4,19 @@
 
 #about .row {
   margin-top: 80px;
+  margin-bottom: 130px;
 }
 
 #about-text h2 {
   margin-top: 0;
 }
+
+#about-image {
+  padding-left: 3px;
+}
+
+#name {
+  color: #A0DCFF;
+}
+
+/*6BA8DE*/
