@@ -9,8 +9,10 @@ const Bio = () => (
   <div id="bio">
     <TitleBar title="About" />
     <About />
-    <TitleBar title="Skills" />
-    <Skills />
+    <div id="skills-container">
+      <TitleBar title="Skills" />
+      <Skills />
+    </div>
     <TitleBar title="Experience" />
     <Experience />
   </div>

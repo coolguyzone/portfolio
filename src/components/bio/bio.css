@@ -11,3 +11,8 @@
 #bio .title-bar:first-of-type {
   margin-top: 0;
 }
+
+#skills-container {
+  background-color: #25232E;
+  padding-top: 60px;
+}
