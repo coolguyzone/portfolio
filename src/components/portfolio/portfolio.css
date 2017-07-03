@@ -3,3 +3,9 @@
   background-color: #25232E;
   padding-top: 60px;
 }
+
+.portfolio-img img {
+  width: 100%;
+  height: 210px;
+  margin-top: 30px;
+}
