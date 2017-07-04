@@ -9,3 +9,19 @@
   height: 210px;
   margin-top: 30px;
 }
+
+.portfolio-img {
+  background-size: cover !important;
+  margin-top: 30px;
+  width: 100%;
+  height: 180px;
+}
+
+.portfolio-img div {
+  background-color:rgba(0,0,0, 0.7);
+  display: none;
+}
+
+.portfolio-img:hover + .porfolio-img div {
+  display: block;
+}
