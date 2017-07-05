@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styles from './portfolio.css';
 import TitleBar from '../title-bar/title-bar';
 import PortfolioIMG from './portfolio-img';
+import Radium from 'radium';
+
+
 
 const Portfolio = () => (
   <div id="portfolio">
@@ -11,32 +14,25 @@ const Portfolio = () => (
         <div className="row">
           <PortfolioIMG
             //  url={require('../../img/level-water.png')}
-            stile={{background: "url('level-water.png')"}}
+            // stile={{background: "url('level-water.png')"}}
+            styles={{
+              base: {
+                'background-color': 'green',
+                ':hover': {
+                  'background-color': 'red'
+                }
+              }
 
+            }}
          />
-          <PortfolioIMG
-            //  url={require('../../img/lazy-bartender.png')}
-            stile={{background: "url('lazy-bartender.png')"}}
-           />
-          <PortfolioIMG
-            //  url={require('../../img/sup-seasonal.png')}
-            stile={{background: "url('sup-seasonal.png')"}}
-           />
-         </div>
-         <div className="row">
-          <PortfolioIMG
-            //  url={require('../../img/what-do-we-eat.png')}
-            stile={{background: "url('what-do-we-eat.png')"}}
-           />
-          <PortfolioIMG
-            //  url={require('../../img/chazz.png')}
-            stile={{background: "url('chazz.png')"}}
-           />
+
+
         </div>
       </div>
     </div>
   </div>
 
 );
+
 
 export default Portfolio;
