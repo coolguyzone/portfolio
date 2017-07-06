@@ -15,14 +15,23 @@ const Portfolio = () => (
           <PortfolioIMG
             //  url={require('../../img/level-water.png')}
             // stile={{background: "url('level-water.png')"}}
+            key1="key1"
+            key2="key2"
             styles={{
               base: {
-                'background-color': 'green',
+                'background': "url('level-water.png')",
+
+              },
+              hover: {
+                opacity: '0',
+
                 ':hover': {
-                  'background-color': 'red'
+                  opacity: '1'
+                },
+                ':focus': {
+                  display: 'block'
                 }
               }
-
             }}
          />
 

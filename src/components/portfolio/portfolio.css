@@ -19,9 +19,5 @@
 
 .portfolio-img div {
   background-color:rgba(0,0,0, 0.7);
-  display: none;
-}
-
-.portfolio-img:hover + .porfolio-img div {
-  display: block;
+  /*display: none;*/
 }
