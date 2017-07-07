@@ -20,3 +20,7 @@
   margin-top: 30px;
   margin-bottom: 40px;
 }
+
+#front-end-skills p, #back-end-skills p, #misc-skills p {
+  color: #D1D1D1;
+}
