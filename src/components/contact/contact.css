@@ -5,7 +5,21 @@
 }
 
 .contact-item {
-  border: 2px solid white;
+  border: 2px solid #A0DCFF;
   margin-left: 20px;
   margin-right: 20px;
+  border-radius: 5px;
+}
+
+.contact-item a {
+
+}
+
+.contact-item h3 {
+  color: #A0DCFF;
+}
+
+.contact-item p {
+  font-size: 1.3em;
+  color: white;
 }
