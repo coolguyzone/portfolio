@@ -2,7 +2,7 @@
   width: 100%;
 }
 
-#about .row {
+#about .row:first-of-type {
   margin-top: 80px;
   margin-bottom: 30px;
 }
@@ -19,4 +19,40 @@
   color: #A0DCFF;
 }
 
+#about-mobile-text {
+  display: none;
+}
+
 /*6BA8DE*/
+
+/*media queries*/
+
+@media only screen and (max-width: 667px) {
+  #about-text h2 {
+    font-size: 1.5em;
+    padding-top: 10px;
+  }
+  #about-text p {
+    display: none;
+  }
+  #about-mobile-text {
+    display: block;
+  }
+
+  #about-mobile-text {
+    margin-top: 0px;
+    padding: 0;
+  }
+  #about-mobile-text p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+  }
+
+  #about-mobile-text .col-xs-10 {
+    padding: 0 !important;
+  }
+
+  #about .row:first-of-type {
+    margin-bottom: 8px;
+  }
+}
