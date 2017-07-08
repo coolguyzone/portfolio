@@ -1,7 +1,5 @@
 #contact {
   height: 600px;
-  background-color: rgb(30,30,40)
-;
   padding-top: 60px;
 }
 /*previous bgcolor #25232E*/
@@ -24,4 +22,15 @@
 .contact-item p {
   font-size: 1.3em;
   color: #D1D1D1;
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 667px) {
+  #contact .row:nth-of-type(2){
+    margin-top: 0 !important;
+  }
+  .contact-item {
+    margin-top: 20px;
+  }
 }
