@@ -3,7 +3,7 @@ import styles from './skills.css';
 
 const Skills = () => (
   <div className="row">
-    <div className="col-sm-10 col-sm-offset-1">
+    <div className="col-sm-10 col-xs-offset-1 col-xs-10">
       <div id="skills" className="row">
         <div id = "front-end-skills" className="col-sm-4">
           <h2>Front-End</h2>

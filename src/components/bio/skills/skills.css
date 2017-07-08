@@ -24,3 +24,20 @@
 #front-end-skills p, #back-end-skills p, #misc-skills p {
   color: #D1D1D1;
 }
+
+/*media queries*/
+
+@media only screen and (max-width: 667px) {
+  #skills .col-sm-4 {
+    padding-right: 0;
+  }
+
+  #front-end-skills, #back-end-skills, #misc-skills {
+    border: 2px solid white;
+  }
+
+    #front-end-skills p, #back-end-skills p, #misc-skills p {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+}
