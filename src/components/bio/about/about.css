@@ -54,5 +54,6 @@
 
   #about .row:first-of-type {
     margin-bottom: 8px;
+    margin-top: 40px;
   }
 }
