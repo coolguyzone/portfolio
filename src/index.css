@@ -9,3 +9,8 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
