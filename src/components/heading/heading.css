@@ -19,7 +19,7 @@
   padding: 0 3% 0 5%;
 }
 
-#heading-button .col-md-5 {
+#heading-button .col-xs-5 {
   height: 50px;
   line-height: 50px;
   width: 200px;
@@ -29,7 +29,7 @@
 }
 
 #heading-button {
-  padding-left: 300px;
+  padding-left: 22%;
 }
 
 #heading-mobile-text {
