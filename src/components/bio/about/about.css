@@ -1,5 +1,6 @@
 #about-image img {
   width: 100%;
+  border-radius: 5%;
 }
 
 #about .row:first-of-type {

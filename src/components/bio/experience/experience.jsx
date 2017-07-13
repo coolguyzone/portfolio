@@ -22,8 +22,8 @@ const Experience = () => (
            dates="Jan 2017-May 2017"
            company="Galvanize"
            url="galvanize.com"
-           bg = '#17D9A5'
-           color = '#17D9A5'
+           bg = '#9AFFCC'
+           color = '#9AFFCC'
          />
       </div>
     </div>
@@ -35,16 +35,16 @@ const Experience = () => (
            dates="Feb 2013-Dec 2016"
            company="MyLikes"
            url="mylikes.com"
-           bg = '#DB6F14'
-           color='#DB6F14'
+           bg = '#A8AFFF'
+           color='#A8AFFF'
          />
          <ExperienceItem
             title="SEO Project Manager"
             dates="Dec 2010-Dec 2012"
             company="Phase One Accelerator"
             url="defunct"
-            bg = '#A0DCFF'
-            color='#A0DCFF'
+            bg = '#FFE49A'
+            color='#FFE49A'
           />
       </div>
       </div>

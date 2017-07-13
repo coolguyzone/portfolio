@@ -11,7 +11,9 @@ const ExperienceItem = (props) => (
         <h3>{props.title}</h3>
         <p>{props.dates}</p>
       </div>
-      <div className="experience-company col-sm-5 col-xs-4">
+      <div className="experience-company col-sm-5 col-xs-4"
+        style={{'color': props.color}}
+        >
         <h3>{props.company}</h3>
         <p>{props.url}</p>
       </div>
